@@ -9,13 +9,11 @@ function loadfruit(){
 }
 
 function loop(){
-    var x = prompt("Enter a number :");
-    for(var i=0;i<x;i++){
-        if(i%2 === 0)
-        document.write(i);
+    var x = prompt("Enter a name :");s
+        if(x == "Anubhav")
+        document.write("Welcome " + x);
         else 
         document.write('This is odd');
-    }
 }
 
 
